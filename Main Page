@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+ <head  lang="en-US"> <!--this helps search engines find the page-->
+     <title>Play and Learn!</title>
+     <meta charset="UTF-8"><!-- This is very important for security as well.-->
+    
+ </head>   
+ 
+    </br>
+    
+    <body>
+        <header><p align = "center">~Diouxie's PlayGround~</p></header>
+        <a href="https://www.sololearn.com/Codes/" target = "_blank"><p align ="center">Learn Playing</p>
+        </a>   
+
+</br>
+
+<div class = "section">   
+
+<p align="center">
+    
+
+    <a href = "https://www.youtube.com/watch?v=TvV4wzN_oh4" target ="_blank">
+        <img src = "http://t1.gstatic.com/images?q=tbn:ANd9GcQrTKcuhdCyvEERQXE7btf51-qIYtVv1vklXf2cLx94jZeQGNi36ADY-4t51L04KpVkn-XAg5oG8GiadSSxAAQ" height = "150px" width = "150px"> </br>
+        <em>Click on this image for good background music!</em>
+    </a>
+<!--One can use <b> bold text here </b>  as well as the completely different <strong> bold text here </strong> tags to achieve the same result. Same is the case with italicized text using <i> and <em> tags. 
+One can use <b> bold text here </b>  as well as the completely different <strong> bold text here </strong> tags to achieve the same result. Same is the case with italicized text using <i> and <em> tags. -->
+</br>
+</div>
+
+<div class = "section">   
+</p>
+    <h1 align = "center"><span>HTML5</span></h1>
+        <P><B>New Elements in HTML5</B></P> </br>
+    "article", "aside", "audio", "canvas", "datalist", "details", "embed", "footer", "header", "nav", "output", "progress", "section", "video", and even more!</br>
+    </br>
+        <p><b>Forms</b></br>
+        <ul>
+            <li>The Web Forms 2.0 specification allows for creation of more powerful forms and more compelling user experiences.</li>
+            <li>Date pickers, color pickers, and numeric stepper controls have been added.</li>
+             <li>Input field types now include email, search, and URL.</li>
+            <li>PUT and DELETE form methods are now supported.</li>
+        </ul>
+</br>
+        <p><b>Integrated API (Application Programming Interfaces)</b></br>
+        <ol>
+            <li>Drag and Drop</li>
+            <li>Audio and Video</li>
+            <li>Offline Web Applications</li>
+            <li>History</li>
+            <li>Local Storage</li>
+            <li>Geolocation</li>
+            <li>Web Messaging</li>
+        </ol>
+        </p>
+        
+</div>        
+<div class = "section">   
+
+    <h1><span>Let's talk about tables!</span></h1>
+    
+    <ul>
+        <li>Use the HTML "table" element to define a table.</li>
+        <li>Use the HTML "tr" element to define a table row.</li>
+        <li>Use the HTML "td" element to define a table data.</li>
+        <li>Use the HTML "th" element to define a table heading.</li>
+        <li>Use the HTML "caption" element to define a table caption.</li>
+        <li>Use the CSS border property to define a border.
+    </ul>
+    
+    </p>
+
+        </br>
+        <table border = "5" align = "center" bgcolor = "blue">
+           
+             <tr class = "selected">
+                    <th colspan = "3" rowspan="4">This is a table with 3 columns, a header row and 6 data containers </td>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+            </tr>
+                
+             <tr align ="center" bgcolor = "white">
+                <td>Column 1</td>
+                <td>Column 2</td>
+                <td>Column 3</td>
+            </tr>
+            
+            <tr bgcolor = "yellow">
+                <td>Data container 1</td>
+                <td>Data container 2</td>
+                <td>Data Container 3</td>
+            </tr>
+            
+            <tr bgcolor = "yellow">
+                <td>Data container 4</td>
+                <td>Data container 5</td>
+                <td>Data Container 6</td>
+            </tr>
+</table>
+</br>
+
+<p> <b>Obs: </b>
+    <ol>
+            <li>The colspan attribute defines how much space does this column occupies,in our case it occupies the space of 2 columns.</li>
+            <li>To make a cell span more than one row, use the rowspan attribute.</li>
+            <li>You can use the "br /" element when a column has no content in it.</li>
+            <li>A more complex HTML table may also include "caption", "col", "colgroup", "thead", "tfoot", and "tbody" elements.</li>
+    </ol>
+</br>
+    <p> 
+    Note that class="selected" is another CSS element.
+        In the example above notice how some of the table boxes are orange.
+        These are the cells that use class="selected" in the html file.
+        Now, switch to the CSS tab. Here you will find a section like this:
+    </p>
+</br>
+
+    <table  align = "center" class = "table">
+        <tr>
+            <td>.selected {
+                background-color: #f36f48;  < this is making the cells orange
+                font-weight: bold;
+                color: white;
+                }
+            </td>
+        </tr>
+    </table>
+    </br>
+    
+    <p>Your website knows to make those cells orange because you've told it to here.</p>
+    
+</div>
+
+<div class = "section"> 
+
+<p align = "center" class = "notes">
+    <b>Notes about style and CSS</b>
+</p>
+
+</br>
+
+<ol>
+<li>In the case of styling elements, CSS is more effective than HTML.</li>
+
+<li>Span is used to format a small, or inline section of text with CSS. 
+In the example html file, take note of </br>
+
+<h1><span>My Coding Schedule</span></h1>
+
+Now, go to the CSS tab. You are looking for this:
+
+</br>
+</br>
+
+<table class = "table">
+    <tr>
+        <td>h1 span {
+        border: 4px dashed #20bcd5;
+        padding: 10px;
+        }
+    </td>
+    </tr>
+</table>
+</br>
+
+This tells your website to put a colored (#20bcd5) 4px dashed border with 10px padding around "My Coding Schedule".
+</br>
+</br>
+</div>
+
+<div class = "section">
+    
+    <h1><span>About Blocklevel and Inline elements</span></h1>
+    
+    </br>
+        <p>
+            In HTML, most elements are defined as block level or inline elements.
+        Block level elements start from a new line.</br>
+        <b>For example:</b> "h1", "form", "li", "ol", "ul", "p", "pre", "table", "div" etc.
+        
+        Inline elements are normally displayed without line breaks.</br>
+       <b>For example:</b> "b", "a", "strong", "img", "input", "em", "span" etc.
+        
+        The "div" element is a block-level element that is often used as a container for other HTML elements.
+        </p>
+    </br>
+    <p>Other elements can be used either as block level elements or inline elements. This includes the following elements:
+    </br>
+    
+        <ul>
+            <li>APPLET - embedded Java applet</li>
+            <li>IFRAME - Inline frame</li>
+            <li>INS - inserted text</li>
+            <li>MAP - image map</li>
+            <li>OBJECT - embedded object</li>
+            <li>SCRIPT - script within an HTML document</li>
+        </ul>
+    
+    You can insert inline elements inside block elements. For example, you can have multiple "span" elements inside a "div" element.
+    Inline elements cannot contain any block level elements.
+    
+    </p>
+</br>
+
+<p>"div" is used to define a section or blocklevel of text.
+You can also style the whole "div" section with CSS.</p>
+
+</div>
+
+<div class = "section">
+    
+    <h1><span>Forms</span></h1>
+    
+    <p>
+        HTML forms are used to collect information from the user. Forms are defined using the "form" element, with its opening and closing tags. Usually the form is submitted to a web page on a web server. 
+    </p>
+    
+    <p>
+        To take in user input, you need the corresponding form elements, such as text fields. The "input" element has many variations, depending on the type attribute. It can be a text, password, radio, URL, submit, etc. 
+    </p>
+    </br>
+    
+    <p>You can make a submit button after your password and username inputs with the input "submit". Don't forget to name it "submit" also.</p></br>
+    
+    <!--The name attribute specifies the name of an <input> element.
+
+The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted.
+
+Note: Only form elements with a name attribute will have their values passed when submitting a form.-->
+
+    <form action="http://www.sololearn.com" target ="_blank" method = "get"> 
+        <lable>username</lable>
+        <input type = "text" name = "username" /></br>
+    <form action="http://www.sololearn.com" target ="_blank" method = "post"> 
+        <lable>password</lable>
+        <input type = "password" name = "password" /></br>
+    </form>    
+    <!--If we change the input type to radio, it allows the user select only one of a number of choices-->
+    <form action="http://www.sololearn.com" target ="_blank">
+        <input type="radio" name="gender" value="female" /> Female <br />    
+        <input type="radio" name="gender" value="male" /> Male <br />
+        <input type="radio" name="gender" value="Transgender-woman"/>Transgender woman<br/>
+        <input type="radio" name="gender" value="Transgender-man"/> Transgender-man <br/>
+        <input type="radio" name="gender" value="genderfluid" /> Genderfluid <br />
+        <input type="radio" name="gender" value="genderqueer" /> Genderqueer <br />
+        <input type="radio" name="gender" value="non-binary" /> Non-Binary <br />
+        <input type="radio" name="gender" value="other" /> Other <br />
+    </form>    
+    <!--The type "checkbox" allows the user to select more than one option-->
+        
+    <form action="http://www.sololearn.com" target ="_blank">
+        <input type="checkbox" name="gender" value="1" /> I love you <br />
+        <input type="checkbox" name="gender" value="2" /> And I love me too <br />
+        <input type = "name" name = "name">Name</br>
+        <input type = "email" name ="email">Email</br></br>
+        <textarea name="message"  placeholder="Enter Text"></textarea>
+    </form>
+    <!--The value attribute specifies the value of an <input> element.
+
+The value attribute is used differently for different input types:
+
+For "button", "reset", and "submit" - it defines the text on the buttonFor "text", "password", and "hidden" - it defines the initial (default) value of the input fieldFor "checkbox", "radio", "image" - it defines the value associated with the input (this is also the value that is sent on submit)
+
+Note: The value attribute cannot be used with <input type="file">.-->
+        
+    <form>    
+        <input type ="submit" name = "submit"/ class = "submit" value"send"></br>
+        <a href="Fogrgot password"><small>Forgot password?</small></a>
+        <a href="Sign up Free"><small>Sign Up Free</small></a>
+    </form>
+    
+    <p>
+        The "form" tag is used to collect information (like photos, text, etc.) from the user and the action attribute specifies where the back-end script is located to process that data. Back-end can be implemented using technologies like: php, python, ruby, etc.
+        </p></br>
+        <p><b>For example:  you can use form to let's say gather a survey online and use PHP to store the result in a database.</b>
+        </p></br>
+        <p>Lask framework is also a good option to implement back-end which is based on Python.</p>
+    </p>
+</div>
+
+<div class = "section">
+    <h1><span>HTML Colors</span></h1>
+        <p>HTML colors are expressed as hexadecimal values:</p> </br>
+        <p>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</p></br>
+        <p>As you can see, there are 16 values there, 0 through F. Zero represents the lowest value, and F represents the highest.</p>
+        
+    <h2>Background and Font Colors</h2>
+
+        <p>The bgcolor attribute can be used to change the web page's background color.</p>
+</div>
+
+<div class = "section">
+     
+    "iframe" tag is used to display a web page within a web page. That's why, if the video (or other media) you want to show on your website is somewhere online, then iframes are a good option.
+
+But say your video isn't anywhere online and it's only hosted in your server with your HTML document, then you might want to use the "video" and "source" tags. 
+<p><b>For example:</b></p>
+
+        <video width="320" height="240" controls>
+        <source src="my_movie.mp4" type="video/mp4"> 
+        </video>
+</div>
+</body>
+<footer>
+    <ul>
+        <li></li> Contact Information
+        <li></li>Privacy Policy
+        <li></li>Social Media Icons
+        <li></li>Terms of Service
+        <li></li>Copyright Information
+        <li></li>Sitemap and Related Documents
+    </ul>
+</html>
